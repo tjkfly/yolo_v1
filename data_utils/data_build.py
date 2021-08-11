@@ -148,8 +148,10 @@ if __name__ == '__main__':
         a, b = dd
         print(a.shape)
         print(b.shape)
+        np.set_printoptions(threshold=100000)  # 全部输出
+        print(b)
         break
 
-    # np.set_printoptions(threshold=100000)  # 全部输出
+        np.set_printoptions(threshold=100000)  # 全部输出
     # print(img.shape)
     # print(target)
